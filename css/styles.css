@@ -9,7 +9,7 @@
 
 body{
     /* background-color:  rgb(45, 45, 45); */
-    background-image:url('https://img.freepik.com/premium-photo/black-phone-with-black-background-with-square-design-it_662214-79089.jpg');
+    background-image:url('../Resources/Background-pic.avif');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -225,6 +225,7 @@ textarea{
     border: 3px solid rgb(225, 164, 73);
     background-color: rgb(208, 208, 208);
     margin-bottom: 15px;
+    transition: .3s ease-in-out;
 }
 
 textarea:hover{
@@ -241,6 +242,7 @@ textarea:hover{
     font-size: 1.3rem;
     border: 3px solid rgb(0, 0, 0);
     margin-bottom: 10px;
+    transition: .3s ease-in-out;
 }
 
 #submit:hover{
